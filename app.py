@@ -20,7 +20,7 @@ def query_huggingface(payload):
     return response.json()
 
 # Streamlit UI
-st.title("Dialogflow + Hugging Face Chatbot")
+st.title("Prosperity Chatbot")
 
 user_input = st.text_input("You: ", "")
 
